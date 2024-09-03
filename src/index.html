@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <img class="header__logo" src="../src/images/logo.svg" alt="">
+
+                <nav class="header__nav">
+                    <a href="#" class="header__link">Подбор тура</a>
+                    <a href="#" class="header__link">Горящие туры</a>
+                    <a href="#" class="header__link">Страны</a>
+                    <a href="#" class="header__link">отели</a>
+                </nav>
+
+                <div class="header__block">
+                    <button class="header__btn">оставить заявку</button>
+                    <img class="header__icon-1" src="../src/images/call.png" alt="">
+                    <img class="header__icon-2" src="../src/images/location.png" alt="">
+                    <img class="header__icon-3" src="../src/images/burger.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="service">
+        <div class="container">
+            <div class="service__top">
+                <ul class="service__list">
+                    <li class="service__item service__item_1">Дополнительные услуги</li>
+                    <li class="service__item service__item_2">Личные данные</li>
+                    <li class="service__item service__item_3">Способ оплаты</li>
+                </ul>
+            </div>
+
+            <div class="service__wrap">
+                <h1 class="service__title">способ оплаты</h1>
+
+                <form class="service__form" action="">
+                    <div class="service__group">
+                        <input class="service__input" type="radio" id="office">
+                        <label class="service__label" for="office">Оплата лично (в офисе)</label>
+                    </div>
+
+                    <div class="service__group">
+                        <input class="service__input" type="radio" id="card">
+                        <label class="service__label" for="card">Онлайн платеж на сайте</label>
+                    </div>
+
+                    <div class="service__box service__box_1">
+                        <div class="service__name">Номер карты:</div>
+                        <input class="service__number" type="text" placeholder="XXXX XXXX XXXX XXXX">
+
+                        <div class="service__miniGroup">
+                            <div class="service__name">Действует до:</div>
+                            <input class="service__code" type="text" placeholder="XX">
+                            <span class="service__span">/</span>
+                            <input class="service__code" type="text" placeholder="XX">
+                        </div>
+
+                        <div class="service__name">Имя владельца карты:</div>
+                        <input class="service__number service__number_2" type="text"
+                            placeholder="Александр Александров">
+                    </div>
+                    <div class="service__box service__box_2">
+                        <div class="service__color"></div>
+
+                        <div class="service__miniGroup">
+                            <div class="service__name">CVC2/CVV2</div>
+                            <input class="service__code" type="text" placeholder="XXX">
+                        </div>
+                    </div>
+
+                    <button class="service__btn">оплатить</button>
+                </form>
+
+            </div>
+
+            <div class="service__inner">
+                <img class="service__img" src="../src/images/img.png" alt="">
+                <div class="service__country">Турция, Сиде</div>
+                <div class="service__hotel">Hotel Side Amour</div>
+                <img class="service__ranking" src="../src/images/stars.svg" alt="">
+
+                <ul class="service__textBox">
+                    <li class="service__name">
+                        Срок: <span>3 мая - 15 мая 2024</span>
+                    </li>
+                    <li class="service__name">
+                        Туристы:<span>2 человека</span>
+                    </li>
+                    <li class="service__name">
+                        Номер:<span>Comfort room</span>
+                    </li>
+                    <li class="service__name">
+                        Питание:<span>All inclusive</span>
+                    </li>
+                    <li class="service__name">
+                        Вылет:<span>Москва, Шереметьево</span>
+                    </li>
+                </ul>
+
+                <div class="service__fullPrice">
+                    Общая сумма: 160 000 ₽
+                </div>
+
+                <a class="service__link" href="">продолжить</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <img class="footer__logo" src="../src/images/footer-logo .png" alt="">
+                <div class="footer__box">
+                    <span class="footer__text">Узнавайте о горящих турах первыми</span>
+                    <form class="footer__form" action="">
+                        <input class="footer__input" type="text" placeholder="Введите почту">
+                        <a class="footer__link" href="">
+                            <img class="footer__img" src="../src/images/icon02.svg" alt="">
+                        </a>
+                    </form>
+                </div>
+            </div>
+
+            <nav class="footer__nav">
+                <a class="footer__item" href="">Подбор</a>
+                <a class="footer__item" href="">Горящие туры</a>
+                <a class="footer__item" href="">Страны и отели</a>
+                <a class="footer__item" href="">Priority</a>
+                <a class="footer__item" href="">оплата</a>
+                <a class="footer__item" href="">отзывы</a>
+                <a class="footer__item" href="">О нас</a>
+                <a class="footer__item" href="">контакты</a>
+            </nav>
+
+            <div class="footer__wrap">
+                <div class="footer__iconBox">
+                    <img class="footer__icon" src="../src/images/facebook.png" alt="">
+                    <img class="footer__icon" src="../src/images/instagram.png" alt="">
+                    <img class="footer__icon" src="../src/images/telegram.png" alt="">
+                    <img class="footer__icon" src="../src/images/whatsapp.png" alt="">
+                    <img class="footer__icon" src="../src/images/ok.png" alt="">
+                    <img class="footer__icon" src="../src/images/vk.png" alt="">
+                </div>
+            </div>
+
+            <div class="footer__copyright">
+                2023 © Anex Tour - Туристическая компания
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
